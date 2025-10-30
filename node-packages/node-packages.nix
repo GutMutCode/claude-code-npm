@@ -9,10 +9,10 @@ in
   "@anthropic-ai/claude-code" = nodeEnv.buildNodePackage {
     name = "_at_anthropic-ai_slash_claude-code";
     packageName = "@anthropic-ai/claude-code";
-    version = "2.0.28";
+    version = "2.0.29";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.0.28.tgz";
-      sha512 = "H5tfhYoAwv6wZ7KhTAe2vj3dus+3GaapD0EkmG3ckxoP6aTo3dfjXRLZ+7dxDA4M1h34pBMpN36Hud6B/0m+0A==";
+      url = "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.0.29.tgz";
+      sha512 = "a/dMfD9UTk+aA6DmNRSMUnMsj/Rk657qE8IKBqYS/Dt5stApJH6cSH0dmZKOIPa/qBHcekUPTrRvVpAC1mTQ9A==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -27,10 +27,10 @@ in
   opencode-ai = nodeEnv.buildNodePackage {
     name = "opencode-ai";
     packageName = "opencode-ai";
-    version = "0.15.18";
+    version = "0.15.28";
     src = fetchurl {
-      url = "https://registry.npmjs.org/opencode-ai/-/opencode-ai-0.15.18.tgz";
-      sha512 = "uR8fV+vOl8uq/ZwFiFU6PvGwaj90M5LjAefds0Qk1tPoI8U2ewiHK6kDti3yfAznBZLy4pyAN5/yFf47A6O+RA==";
+      url = "https://registry.npmjs.org/opencode-ai/-/opencode-ai-0.15.28.tgz";
+      sha512 = "PoUAgaomOjifpdXy9jDsKrdb0+VArO3AUGtCUYSyD1IE9NOsHaQagaulMEzMwcBFIyXarSQLH5eNG8D3yd5r3Q==";
     };
     buildInputs = globalBuildInputs;
     meta = {
