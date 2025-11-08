@@ -8,7 +8,7 @@ let
   };
 in
 {
-  # Claude Code from npm (latest version 2.0.33)
+  # Claude Code from npm (latest version 2.0.36)
   # Generated using node2nix for proper dependency management
   claude-code-npm = nodePackages."@anthropic-ai/claude-code";
 }
