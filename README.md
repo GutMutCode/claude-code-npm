@@ -6,7 +6,7 @@ Claude Code npm package packaged for NixOS and Nix users.
 
 This flake provides the npm version of Claude Code (@anthropic-ai/claude-code) using node2nix for proper dependency management.
 
-- **Version**: 2.0.36
+- **Version**: 2.0.37
 - **Source**: npm registry
 - **License**: Proprietary
 
